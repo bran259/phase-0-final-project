@@ -1,0 +1,225 @@
+
+body{
+    font-family: 'poppins',sans-serif;
+    background: radial-gradient(circle at left,#2b2d42,#000);
+    color: #fff;
+    line-height: 1.6;  
+}
+nav {
+  background: #0b0b0b;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(209, 130, 130);
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #00b3e6;
+}
+html{
+    scroll-behavior: smooth;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 10%;
+  color: #fff;
+}
+.home-content {
+  max-width: 60%;
+}
+.home-content h3 {
+  color: #1e90ff;
+  font-size: 20px;
+}
+.home-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.home-content h1 span {
+  color: #1e90ff;
+}
+.home-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.role-btn {
+  background: #1e90ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.role-btn:hover {
+  background: #0b6fc2;
+}
+.home-content p {
+  font-size: 20px;
+  color: #ccc;
+  font-style: italic;
+}
+.home-img img {
+  width: 400px;
+  height: 300px;
+  border-radius: 80%;
+  border: 3px solid red;
+  object-fit: cover;
+}
+.home-img:hover{
+    transform: translateY(-10px);
+    border-color: #0f65c7;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    padding: 80px 50px;
+}
+.card{
+    background: rgb(85, 69, 69);
+    padding: 30px;
+    border-radius: 15px;
+    flex: 1;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid yellow;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px blueviolet;
+    border-color: #fff;
+}
+section {
+  padding: 60px 10%;  
+  color: #fff;
+  border-bottom: 1px solid rgba(218, 220, 226, 0.945);
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00b3e6; /* highlight color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.edu-card, .exp-card, .project-card {
+  background: #151515;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.edu-card:hover, .exp-card:hover, .project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+}
+.edu-card h3, .exp-card h3, .project-card h3 {
+  color: #c26a6a; /* red accent */
+  margin-bottom: 10px;
+}
+.edu-card li, .exp-card li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+.project-card {
+  text-align: center;
+}
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: 1px solid #00b3e6;
+  color: #00b3e6;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+.project-card a:hover {
+  background: #00b3e6;
+  color: #fff;
+}
+.skills span{
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.skills span:hover{
+    color: #000;
+    background: #1e90ff;
+    cursor: pointer;
+}
+.contact {
+  padding: 80px 50px;
+  text-align: center;
+  background: #0a0a0a;
+  color: #fff;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+.contact-form button {
+  padding: 12px;
+  border: none;
+  background: #1e90ff;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact-form button:hover {
+  background: #0f65c7;
+}
+footer{
+    background: #0a0a0a;
+    padding: 30px 50px;
+    text-align: center;
+
+}
+.footer-content p{
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.socials li a{
+    color: #1e90ff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.socials li a:hover{
+    color: #fff;
+}
