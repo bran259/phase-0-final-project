@@ -3,7 +3,7 @@ body{
     font-family: 'poppins',sans-serif;
     background: radial-gradient(circle at left,#2b2d42,#000);
     color: #fff;
-    line-height: 1.6;  
+    line-height: 1.9;  
 }
 nav {
   background: #0b0b0b;
@@ -117,7 +117,7 @@ section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   text-align: center;
-  color: #00b3e6; /* highlight color */
+  color: #00b3e6; 
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -134,7 +134,7 @@ section h2 {
   box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
 }
 .edu-card h3, .exp-card h3, .project-card h3 {
-  color: #c26a6a; /* red accent */
+  color: #c26a6a; 
   margin-bottom: 10px;
 }
 .edu-card li, .exp-card li {
